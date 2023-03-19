@@ -152,6 +152,7 @@ export class StaticQueriesService {
         },
         view: 'Bim',
       },
+      /*
       {
         title: this.text.latest_activity,
         uiSref: 'bim.partitioned.list',
@@ -161,6 +162,7 @@ export class StaticQueriesService {
         },
         view: 'Bim',
       },
+      */
       {
         title: this.text.recently_created,
         uiSref: 'bim.partitioned.list',
