@@ -212,7 +212,8 @@ export class ViewSelectComponent extends UntilDestroyedMixin implements OnInit {
           { title: this.text.scope_global, children: categories.public, collapsible: true },
           { title: this.text.scope_private, children: categories.private, collapsible: true },
         ];
-
+        console.log('MAXX: op-view-select.component.ts');
+        console.log(viewCategories);
         this.viewCategories$.next(viewCategories);
       });
   }
