@@ -208,8 +208,7 @@ export class ViewSelectComponent extends UntilDestroyedMixin implements OnInit {
         const staticQueries = this.opStaticQueries.getStaticQueriesForView(this.viewType);
         const viewCategories = [
           { title: this.text.scope_starred, children: categories.starred, collapsible: true },
-        //  { title: this.text.scope_default, children: staticQueries, collapsible: true },
-          { title: this.text.scope_default, children: categories.default, collapsible: true },
+          { title: this.text.scope_default, children: staticQueries, collapsible: true },
           { title: this.text.scope_global, children: categories.public, collapsible: true },
           { title: this.text.scope_private, children: categories.private, collapsible: true },
         ];
