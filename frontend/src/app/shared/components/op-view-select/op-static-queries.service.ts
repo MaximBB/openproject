@@ -60,7 +60,7 @@ export class StaticQueriesService {
     status: this.I18n.t('js.work_packages.properties.status'),
     work_packages: this.I18n.t('js.label_work_package_plural'),
     gantt: this.I18n.t('js.timelines.gantt_chart'),
-    //latest_activity: this.I18n.t('js.work_packages.default_queries.latest_activity'),
+    latest_activity: this.I18n.t('js.work_packages.default_queries.latest_activity'),
     created_by_me: this.I18n.t('js.work_packages.default_queries.created_by_me'),
     assigned_to_me: this.I18n.t('js.work_packages.default_queries.assigned_to_me'),
     recently_created: this.I18n.t('js.work_packages.default_queries.recently_created'),
@@ -105,7 +105,6 @@ export class StaticQueriesService {
         uiParams: { query_id: '', query_props: '' },
         view: 'WorkPackagesTable',
       },
-      /*
       {
         title: this.text.latest_activity,
         uiSref: 'work-packages',
@@ -115,7 +114,6 @@ export class StaticQueriesService {
         },
         view: 'WorkPackagesTable',
       },
-      */
       {
         title: this.text.recently_created,
         uiSref: 'work-packages',
@@ -152,7 +150,6 @@ export class StaticQueriesService {
         },
         view: 'Bim',
       },
-      /*
       {
         title: this.text.latest_activity,
         uiSref: 'bim.partitioned.list',
@@ -162,7 +159,6 @@ export class StaticQueriesService {
         },
         view: 'Bim',
       },
-      */
       {
         title: this.text.recently_created,
         uiSref: 'bim.partitioned.list',
